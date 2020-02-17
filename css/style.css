@@ -1,0 +1,72 @@
+.branding {
+    font-size: 17px;
+}
+
+.showcase {
+    
+    height: 600px;
+    padding: 140px 100px;
+    color: rgb(0, 0, 0);
+}
+.showcase-background {
+    background: url(../img/matt-jones-9CPAjGVB378-unsplash\ copy.jpg) no-repeat ;
+    background-position: center;
+    height: 600px;
+    
+}
+.showcase p {
+    font-size: 12px;
+    font-weight: 900;
+    background-color: rgba(216, 191, 216, 0.733);
+    padding: 15px 10px 30px;
+    border-radius: 12px;
+}
+.showcase button:hover {
+    opacity: 0.9;
+}
+.showcase h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 4px 3px 12px rgb(67, 32, 78) ;
+}
+.showcase hr {
+    width: 100px;
+    margin: auto;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+}
+.section:hover {
+    transition: 0.3s;
+}
+.section {
+    padding: 40px 0;
+}
+.section h2 {
+    padding: 0;
+    margin: 0;
+}
+.section .fa {
+    font-size: 50px;
+}
+.section img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-top: 190px;
+    }
+    .showcase {
+        padding: 60px 0;
+        height: 400px;
+    }
+}
+#close-start-modal {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 900;
+}
+#start-me-btn {
+    box-shadow: 0px 3px 5px rgb(53, 53, 53);
+}
